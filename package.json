@@ -1,0 +1,20 @@
+{
+  "name": "algo-and-structure",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dirga Yasa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "tsc && node --test dist/**/*.spec.js"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
